@@ -1,0 +1,507 @@
+body {
+    background-color: #e0e0e0;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body{
+    height: 100%;
+}
+div#main {
+    scroll-behavior: smooth;
+}
+
+a{
+
+    //transition: 10s;
+    text-decoration: none;
+    color: black;
+}
+
+/*                                              NAVIGATION                                              */
+div#nav a:hover{
+    font-size: larger;
+    font-weight: bold;
+    color: #000000;
+}
+div#nav {
+   // position: relative;
+    z-index: 1;
+    background-color: #e0e0e0;
+    position: fixed;
+    margin-top: -10px;
+    width: 15%;
+    height: 110vh;
+    //min-height: 100%;
+    /*top: 0;*/
+    /*left: 0;*/
+    float: left;
+    border-right: 2px solid #5f5d5d;
+    padding: 0;
+}
+
+ ul{
+    margin-top: -5px;
+    list-style-type: none;
+     font-size: 20px;
+    // margin-left: auto;
+}
+#nav li{
+    display: block;
+    margin-left: -50px;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #beb5b5;
+}
+li#ime{
+    padding-top: 20px;
+    font-size: 22px;
+    margin-top: 0;
+    font-weight: bold;
+    background-color: #db8409;
+    border-bottom: none;
+}
+
+/*                                              HOME                                                    */
+div#bg{
+    margin-top: -10px;
+    margin-left: 15%;
+    margin-right: -8px;
+    width: auto;
+    height: 100vh;
+    background: url("bg.png") repeat;
+    background-size: cover;
+}
+
+div#hello{
+
+    float: left;
+    padding-left: -10%;
+    padding-top: 15%;
+    font-size: 24px;
+    padding-bottom: 0;
+    margin-left: 15%;
+    margin-top: -10px;
+    height: 100vh;
+    /*border-top: 2px dotted red;*/
+    /*border-bottom: 2px dotted red;*/
+}
+div#hello2{
+    position: relative;
+    top: -62%;
+    left: -62%;
+    background-color: #9acb9e;
+    height: 130px;
+    width: 419%;
+}
+
+div#hello p{
+    font-size: 28px;
+    margin-top: 32%;
+    margin-left: 15%;
+    padding-top: 30px;
+    display: block;
+}
+div#hello p span{
+    font-size: 40px;
+}
+div#hello p:nth-of-type(2)
+{
+    color: #5f5d5d;
+}
+div#home-slika{
+  //  float: right;
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    background: url("img2.png") no-repeat;
+    background-size: cover;
+    border: 5px solid #db8409;
+    border-radius: 50%;
+    right: 13%;
+    top: 25%;
+}
+
+
+/*                                              ABOUT ME                                                  */
+div#green{
+    background-color: #8db099;
+    width: 100.5%;
+    height: 100vh;
+    //margin-right: -14px;
+}
+div#about-me{
+  //  background-color: #8db099;
+    clear: both;
+    display: block;
+    //margin-top: 70px;
+   // border-top: 2px dotted black;
+    float: left;
+    position: relative;
+    height: 100vh;
+    left: 25%;
+
+}
+div#about-me{
+    position: relative;
+    padding-top: 10px;
+    font-family: "Arial Rounded MT Bold",sans-serif;
+}
+div#about-me p#about{
+    font-size: 38px;
+}
+div#about-me p#about span{
+    border-bottom: 5px solid #db8409 ;
+}
+div#about-me p:nth-of-type(2){
+    padding-right: 180px;
+    text-transform: uppercase;
+}
+
+div#main-abt{
+    width: 50%;
+    margin-left: 25%;
+    clear: both;
+   // display: flex;
+}
+div#abt-slika{
+    float: left;
+    margin-left: -50%;
+    margin-top: 25px;
+    margin-bottom: -20px;
+    height: 65vh;
+    width: 160%;
+}
+div#abt-slika p{
+    color: rgba(0,0,0,0);
+    display: block;
+   // float: left;
+    height: 90%;
+    width: 100%;
+    background: url("img6.png") center no-repeat;
+    background-size: cover;
+    border: 13px solid white;
+    border-radius: 7px;
+}
+div#abt-desno{
+    background-color: #8db099;
+    // float: right;
+    position: absolute;
+    width: 130%;
+    top: 25%;
+    left: 92%;
+
+}
+p#abt-h{
+    font-family: Arial,sans-serif;
+    margin-bottom: -4px;
+    font-size: 34px;
+}
+div#abt-desno p#h2{
+    text-transform: none;
+}
+div#abt-desno p:nth-of-type(3)
+{ color: #5f5d5d;
+    padding-bottom: 5px;
+}
+
+dl {
+    display: flex;
+    flex-flow: row wrap;
+  //  border: solid #333;
+  //  border-width: 1px 1px 0 0;
+}
+dt {
+    display: inline-block;
+    flex-basis: 20%;
+    margin-top: 8px;
+    padding: 2px 4px;
+   // background: #333;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+   // padding-right: 5px;
+    border-right: 1px solid #645a5a;
+}
+dd {
+  //  margin-top: 6px;
+    color: #5f5d5d;
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 10px 15px;
+   // border-bottom: 1px solid #333;
+}
+/*dl#dl2{*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    left: 60%;*/
+/*}*/
+
+/*                                                      SKILLS                                                                              */
+
+div#bg2{margin-top: -2px;
+    margin-left: 15%;
+    margin-right: -8px;
+    width: auto;
+    height: 100vh;
+    background: url("bg.png") repeat;
+    background-size: cover;
+}
+
+
+div#skills{
+    padding-top: 5%;
+    height: 100vh;
+    clear: both;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+div#skills h1{
+    padding-top: 40px;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #eaeaea; /* Grey background */
+    border: 0.2px solid black;
+}
+div#celo-skills{
+    display: flex;
+}
+div#skills-levo{
+    background-color: #8db099;
+    padding: 10px 20px;
+    padding-bottom: 35px;
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: 10%;
+    width: 45%;
+}
+div#skills-desno{
+    background-color: #8db099;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10%;
+    width: 45%;
+}
+
+.skills {
+   text-align: end; /* Right-align text */
+    border-radius: 10px;
+    //padding-top: -5px; /* Add top padding */
+    //padding-bottom: -5px; /* Add bottom padding */
+    color: rgba(0,0,0,0); /* White text color */
+    height: 5px;
+}
+#skills div.container{
+    height: 5px;
+    border-radius: 10px;
+}
+
+.html {width: 90%; background-color: #e27c83;
+    } /* Green */
+.css {width: 80%; background-color: #efe350;} /* Blue */
+.js {width: 95%; background-color: #92a2dd;} /* Red */
+.php {width: 45%; background-color: #db8409 ;} /* Dark Grey */
+
+
+
+/*                                                              RESUME                                                                       */
+
+div#green2{
+    background-color: #8db099;
+    width: 100.5%;
+    height: 100vh;
+//margin-right: -14px;
+}
+
+div#cv{
+    padding-top: 30px ;
+    margin-left: 25%;
+    margin-right: 5%;
+    height: 100vh;
+}
+#cv h1{
+    text-align: center;
+    background-color: #efe350;
+    background-size: 100% 50px;
+}
+
+#cv h2{
+    padding: 5px 40px;
+    background-color: #db8409;
+}
+
+#cv div#res-desno  dt, #edu-desno dt{
+    font-weight: normal;
+    font-size: 20px;
+}
+#cv div#res-desno dd, #edu-desno dd {
+    color: black;
+    font-size: 20px;
+}
+
+#cv div#res-levo{
+    float: left;
+}
+
+div#res-desno
+{
+   // font-size: 20px;
+    margin-top: 4%;
+    width: 80%;
+    float: right;
+}
+
+div#edu{
+    clear: both;
+}
+
+div#edu div#edu-levo{
+    float: left;
+}
+div#edu-desno
+{
+    margin-top: 10%;
+    width: 80%;
+    float: right;
+    //font-size: 20px;
+}
+
+/*                                                              CONTACT                                                                   */
+
+
+div#bg3{
+    margin-top: -2px;
+    margin-left: 15%;
+    margin-right: -8px;
+    width: auto;
+    height: 100vh;
+    background: url("bg.png") repeat;
+    background-size: cover;
+}
+
+div#contact{
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 22px;
+    font-family: "Arial Rounded MT Bold",sans-serif;
+}
+div#contact p#cont{
+  //  text-align: center;
+    margin-left: 33%;
+    width: 24.5%;
+    border-bottom: 5px solid #db8409 ;
+    font-size: 36px;
+}
+/*div#contact p#cont span{*/
+/*    border-bottom: 5px solid #db8409 ;*/
+/*}*/
+
+div#contact p:nth-of-type(2){
+    text-transform: uppercase;
+    margin-left: 25%;
+    //display: none;
+    color: rgba(0,0,0,0);
+}
+
+div#form{
+    margin-left: 11%;
+    margin-top: 5%;
+    width: 70%;
+    padding: 20px 2.5%;
+    background-color: white;
+    border-radius: 6px;
+    padding-bottom: 3%;
+
+}
+form input{
+    font-size: 16px;
+    width: 46%;
+    border: none;
+    border-bottom: 0.5px solid #4f4f4f;
+}
+form input:nth-of-type(1),form input:nth-of-type(2){
+    display: inline-block;
+   margin-top: 1%;
+}
+form input:nth-of-type(2){
+    margin-left: 6%;
+}
+form input:nth-of-type(3){
+    margin-top: 7%;
+    width: 98.5%;
+}
+form textarea{
+    font-size: 16px;
+    margin-top: 7%;
+    width: 98.5%;
+    border: none;
+    border-bottom: 0.5px solid #4f4f4f;
+}
+form h3{
+    text-align: center;
+}
+form button{
+    margin-left: 35%;
+    margin-top: 2.6%;
+    font-size: 15px;
+    border: none;
+    width: 28%;
+    color: white;
+    padding: 12px 10px;
+    background-color: #db8409;
+}
+form button:hover{
+    transition: background-color 0.9s;
+    background-color: black;
+}
+div#social{
+    //width: 100px;
+    margin-top: 12px;
+    margin-left: 41%;
+    display: flex;
+}
+div#insta{
+    width: 40px;
+    height: 40px;
+    color: rgba(0,0,0,0);
+    background-color: #beb5b5;
+    background: url("insta.png") no-repeat ;
+    background-size: cover;
+    border-radius: 11px;
+    opacity: 91%;
+}
+
+div#fb{
+    width: 40px;
+    margin-left: 2%;
+    height: 40px;
+    color: rgba(0,0,0,0);
+    background-color: #beb5b5;
+    background: url("fb1.png") no-repeat ;
+    background-size: cover;
+    border-radius: 11px;
+    opacity: 80%;
+}
+div#social a:first-of-type{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
